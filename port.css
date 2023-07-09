@@ -1,21 +1,24 @@
-/* *{
-margin: 0;
-padding: 0;
-} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Header related styles */
-.Main_nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0 200px;
+.Main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
+    background: #fbfbfb;
 }
 
 
-.web_title{
+.web_title {
 
 
     color: #181818;
@@ -23,82 +26,251 @@ body{
     font-weight: 800;
 
 }
-.text_primary{
+
+.text_primary {
     color: #FD6E0A;
 }
 
-.Main_nav> ul {
+.Main_nav>ul {
     display: flex;
     align-items: center;
 }
-.Main_nav li{
+
+.Main_nav li {
     list-style: none;
     margin-right: 50px;
 }
-.Main_nav li a{
+
+.Main_nav li a {
     text-decoration: none;
     color: #474747;
 }
-.btn{
+
+.btn {
     border: 0;
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
     color: white;
-    padding: 15px 35px ;
+    padding: 15px 35px;
 }
+
+.btn_white {
+    background: transparent;
+    color: #4b3d3d;
+    border: 2px solid #FD6E0A;
+}
+
 /* Header related styles */
-header{
-        background: #FFF8F3;
+header {
+    background: #FFF8F3;
+    padding-top: 15px;
 }
 
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
-background-position: bottom right;}
+    background-position: bottom right;
+}
 
-.banner_div{
-            max-width: 550px;
+.banner_div {
+    max-width: 550px;
 }
 
 
-.Profile_picture{
+.Profile_picture {
     width: 500px;
 }
 
 /* about section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
-.about{
+section {
+    margin: 100px 0px;
+}
+
+.about {
     padding: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     margin: 50px auto;
- 
-}
-.section_title{
-    color:  #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+
 
 }
 
-.section_description{
+.section_title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 30px;
+
+}
+
+.section_description {
 
 
-    color:  #757575;
-text-align: center;
-font-size: 18px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about_info_container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 15px;
+
+}
+
+.about_info {
+    text-align: center;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+
+.about_title {
+    color: grey;
+    font-weight: 500;
+}
+
+.about_info_description {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 
 
+.What_I_Do .section_description {
+    padding: 20px 130px;
+    text-align: center;
+}
 
 
 
+.skills {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+
+.skill_div {
+
+    background: #fff;
+    padding: 37px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px #817c7c;
+}
+
+.skill_Name {
+    margin: 10px 0px 0px 0px;
+    color: #474747;
+}
+
+.skill_description {
+    line-height: 30px;
+    text-align: justify;
+
+
+
+}
+
+/* resume styles */
+
+.resume {
+
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.education {
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.experiance {
+    width: 50%;
+    padding: 15px;
+}
+
+.education_title,
+.experiance_title {
+    font-size: 35px;
+    margin-bottom: 25px;
+
+}
+
+.Education__item {
+    border-bottom: 2px solid #aba7a7;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+
+.cv_button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+footer {
+    padding: 150px 150px 0px 150px;
+    background: #FFF8F3;
+}
+
+.footer_columns {
+    max-width: 1140px;
+    display: flex;
+    gap: 200px;
+    margin: 0px  auto;
+    padding-bottom:25px ;
+}
+
+.message_box {
+    border: none;
+    background: white;
+    width: 372px;
+    padding: 15px;
+    border-radius: 5px;
+
+
+
+
+}
+
+.footer_icon {
+    margin-right: 15px;
+}
+
+.footer_copyright {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+
+
+}
+.footer_left_title{
+
+
+    margin-bottom: 15px;
+}
+.footer_right_title{
+    margin-bottom: 15px;
+}
