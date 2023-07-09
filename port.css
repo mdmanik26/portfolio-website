@@ -45,6 +45,9 @@ body {
     text-decoration: none;
     color: #474747;
 }
+.manik_img{
+    width: 532px;
+}
 
 .btn {
     border: 0;
@@ -255,7 +258,7 @@ footer {
 }
 
 .footer_icon {
-    margin-right: 15px;
+    margin: 15px 27px 1px 0px;
 }
 
 .footer_copyright {
